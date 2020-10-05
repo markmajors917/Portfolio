@@ -1,0 +1,145 @@
+/*Common Elements*/
+
+body{
+     font-size: 90;
+     font-family: Tahoma, Geneva, sans-serif;
+     background: lightgrey;
+     margin-trim: 5em;
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     background-size: 100% 100%;
+     -o-background-size: 100% 100%;     
+}
+
+
+/*Nav Bar*/
+.topnav ul {
+    
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: right;
+    
+        }
+.topnav li {
+    display: inline;
+   }
+
+.topnav li :hover {
+    background-color: blueviolet;
+    color: black;
+   }     
+
+/*Title*/
+.title h1 {
+    text-align: center;
+}
+.title h2 {
+    text-align: center;
+}
+
+.banner h2{
+    text-align: center;
+}
+
+.banner li {
+
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    text-decoration: none;
+    display: inline;
+    image-resolution: 5%;
+    
+}
+.banner li
+img {
+    border: 1px solid #ddd;
+    border-radius: none;
+    width: 70px;
+    padding: 30px 170px;
+    position: center;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.banner li :hover {
+    background-color: blueviolet;
+    color: black;
+}     
+
+ 
+.panel p{
+    border: 50px solid #ddd;
+    border-radius: 100% center;
+    }    
+.panel p {
+        
+    width: 54em;      
+    background-color: lightblue;         
+    padding: 100px;      
+    word-wrap: break-word;      
+    font-size: 30px; 
+    text-align: center;            
+}
+.panel h1 {
+    text-align: center;
+}
+
+.credits {
+    text-align: center;
+}
+
+
+/*Main section*/
+.form h2{
+    text-align: center;
+}
+.form fieldset {
+    text-align: center;
+}
+
+.project h1 {
+    text-align: center;
+}
+#project {
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+    display: inline;
+    image-resolution: 0%;
+    text-align: center;   
+}
+.project li :hover {
+    background-color: blueviolet;
+    color: black;
+}     
+
+
+
+
+/*Footer*/
+.social {
+    list-style-type: none;
+    padding: 5px;
+    text-decoration: none;
+    }
+
+.social li {
+    display: inline; 
+}
+.social li img {
+    width: 70px;
+    padding: 40px 423px;
+    position: center;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.social li :hover {
+    background-color: blueviolet;
+    color: black;
+}
+.link li {
+    list-style-type: none;
+    display: inline;
+}
+
