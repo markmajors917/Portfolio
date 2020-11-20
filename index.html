@@ -1,113 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Mark Majors</title>
     <link rel="stylesheet" href="portfolio.css"/>
-    
 </head>
 <body>
     <!-- Nav/Header-->
-    <div class ="topnav">
-        <ul>        
-        <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        </ul> 
-    </div>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about">About</a>
+            <a class="nav-item nav-link" href="projects">Projects</a>
+            <a class="nav-item nav-link" href="contact">Contact</a>
+        </div>
+        </div>
+      </nav>
+    
     <!-- Title-->
-    <div class="title">
-        <h1>Mark Majors</h1>
-        <h2>Software Developer</h2>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Mark Majors</h1>
+          <h1 class="display-5">Software Developer</h1>
+        </div>
     </div>
 
     <!-- Title Banner -->
-        
     <div class="banner">
-        <a href="#"><img src="assets/banner-904886_1920.jpg" /></a> 
-        <hr>  
-        <h2>Skills</h2>
-        <ol>
-        <li><a href="https://html.com/html5/"><img src="assets/htmllogo.png"/><</a></li>
-        <li><a href="http://www.css3.info/"><img src="assets/html.png" /></a></li>
-        <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="assets/c-logo.png" /></a></li>    
-        <li><a href="https://code.org/"><img src="assets/code.png" /></a></li>
-        </ol>
-     </div> 
-   
-        <div class="credits">
-           Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-           Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-           Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-           Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>     
+        
+        <div class="jumbotron">
+            <h1 class="display-5">Stand Out</h1> <a class="btn btn-primary btn-lg" href="Learn More" role="button">Learn More</a><hr class="my-2">
+                    
+            <p class="lead"</p>
+                <a href="#"><img src="assets/light-bulbs-1125016_1920.jpg"></a> 
+                <hr>  
+                <h1>Services I Provide</h1>
+                <ol>
+                <li><a href="https://html.com/html5/"><img src="assets/htmllogo.png"/></a></li>
+                <li><a href="http://www.css3.info/"><img src="assets/html.png" /></a></li>
+                <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="assets/c-logo.png" /></a></li>    
+                <li><a href="https://code.org/"><img src="assets/code.png" /></a></li>
+                </ol>
         </div>
-         </section>
-        </section> 
-    <hr>
+    </div> 
     <!-- About Me-->
     <div class = "panel">
-        <section id = "about"></section>
-        <h1>A Little About Me</h1>
-       
-        <p> I am aspiring software developer, currently learning C#, HTML, and CSS
-            at the ElevenFifty Code Academy in Fishers, Indiana. 
-            I have extensive experience in restaurant operations. My transferable 
-            skills are stategic thinking, planning, problem solving, and team leadership.
-            I love to attack business problems, and won't rest until the best possible 
-            solution is identified and implemented. You can count on me to partner, and 
-            overcome any obsticles your are facing.</p>
-        
+        <div class = "jumbotron"> 
+            <div class="container-fluid">
+                     
+          
+                <h1>About</h1>
+                     
+                 <p class="lead">                         
+                    I am aspiring software developer, currently learning C#, HTML, and CSS
+                    at the ElevenFifty Code Academy in Fishers, Indiana. 
+                    I have extensive experience in restaurant operations. My transferable 
+                    skills are stategic thinking, planning, problem solving, and team leadership.
+                    I love to attack business problems, and won't rest until the best possible 
+                    solution is identified and implemented. You can count on me to partner, and 
+                    overcome any obsticles your are facing.</p>
+            
+            </div>   
+        </div>
     </div>
   
     <!-- Projects -->
-    <section id = "project">
-        <h1>Projects</h1>
-        <div class = project>
-            <li><a href="https://github.com/markmajors917"><img src="assets/code.png"/></a></li>          
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class = "project">
+                <h1>Projects</h1>
+                        <li><a href="https://github.com/markmajors917"><img src="assets/code.png"/></a></li>          
+            </div>
         </div>
-   <hr>
+   </div>
     
-    <!-- Contact Form-->
-        <div class = contact>
-            <section id = "contact"></section>
-            <h2>Contact Me</h2>
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
-                <fieldset id="fs-frm-inputs">
-                  <label for="full-name">Your Name</label>
-                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  <label for="email-address">Your Email</label>
-                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
-                  <label for="message">Your Message</label>
-                  <textarea rows="5" name="message" id="message" placeholder="Please share some information about your needs." required=""></textarea>
-                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                </fieldset>
-                <input type="submit" value="Submit">
-              </form>
-        </div>
-
-
-   
+    <!-- Contact Form-->   
+        <div class="jumbotron">
+            <div class = "contact">
+                <section id = "contact"></section>
+                    <h2>Contact Me</h2>       
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+                        <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Your Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <label for="email-address">Your Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                        <label for="message">Your Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Please share some information about your needs." required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
+                        <input type="submit" value="Submit">
+                    
+                </form>    
+            </div>
+        </div> 
+    
 <hr>
     <!-- Footer -->
     <footer>
-        <!--Legal items, navigational items-->
-        
-        <ul>
-            <div class = "social">
-                <li><a href="https://github.com/markmajors917"><img src="assets/github-icon-38988.png" /></a></li>
-                <li><a href="https://linkedin.com/in/mark-majors"><img src="assets/linkedin-logo-png-2041.png" /></a></li>
-            </div>
+        <!--Legal items, navigational items-->        
+        <div class="jumbotron">
+            <div class ="<div class="container-fluid">
+                <div class = "social">
+                    <h2>Social</h2>                               
+                    <li><a href="https://github.com/markmajors917"><img src="assets/github-icon-38988.png"/></a></li>
+                    <li><a href="https://linkedin.com/in/mark-majors"><img src="assets/linkedin-logo-png-2041.png"/></a></li>
+               </div>
+        </div>
             <div class="link">
                 <li><a href="#">Sitemap</a></li>
                 <li><a href="#">Privacy Policy</a></li>
@@ -115,10 +121,8 @@
                 <li><a href="#">Website by Mark Majors</a></li>
                 <li><span>&copy;2020</span></li>
             </div>
-        </ul>
-   </footer>
-
-
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
